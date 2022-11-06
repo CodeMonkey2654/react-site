@@ -23,7 +23,7 @@ function EduHome() {
                         <Accordion.Header>Milwaukee School of Engineering</Accordion.Header>
                         <Accordion.Body>
                             <div className={"EducationAccordion"}>
-                                <img src={"../Images/MSOE.png"} alt={"MSOE logo"}/>
+                                <img src={"./Images/MSOE.png"} alt={"MSOE logo"}/>
                                 <div>
                                     <p>Degree: Bachelor's of Computer Science</p>
                                     <p>Dates of Education: 2021-2025</p>
@@ -71,7 +71,7 @@ function EduHome() {
                         <Accordion.Header>North Quincy High School</Accordion.Header>
                         <Accordion.Body>
                             <div className={"EducationAccordion"}>
-                                <img src={"../Images/NQHS.png"} alt={"North Quincy High Logo"}/>
+                                <img src={"./Images/NQHS.png"} alt={"North Quincy High Logo"}/>
                                 <div>
                                     <p>Degree: High School Diploma</p>
                                     <p>Dates of Education: 2017-2021</p>

@@ -7,7 +7,16 @@
 .navButton:hover {
     background-color: darkgray;
 }
-.nav{
+.nav {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.routerLink {
+    color: white;
+    text-decoration: none;
+}
+.routerLink:hover {
+    color: white;
+    text-decoration: none;
 }

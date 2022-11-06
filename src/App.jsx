@@ -1,9 +1,10 @@
 import './styles/App.scss';
-import {Accordion} from "react-bootstrap";
+import {Accordion, Image} from "react-bootstrap";
 import {Card} from "react-bootstrap";
 import Navigation from "./Components/Navigation";
 import React from "react";
 import Footer from "./Components/Footer";
+import {HashLink} from "react-router-hash-link";
 
 function App() {
     return (
@@ -21,7 +22,7 @@ function App() {
                 </div>
                 <h3 className={"aboutMeHeader"}>About Me</h3>
                 <div className={"aboutMe"}>
-                    <img className={"personalphoto"} src={"./Images/Personal Photo.jpg"} alt={"Me in a sleeping bag giving a thumbs up during quarantine"}/>
+                    <Image className={"personalphoto"} src={"./Images/Personal Photo.jpg"} alt={"Me in a sleeping bag giving a thumbs up during quarantine"} roundedCircle/>
                     <p>
                         Hi! My name is Caleb Gray and I am a Computer Science Student at the Milwaukee school of engineering.
                         I love learning new languages, finding useful libraries, and spending time watching superhero movies with
@@ -126,7 +127,7 @@ function App() {
                                         OOP classes and templates using typescript.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/react-site/projects#this-site" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/projects#this-site"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -138,7 +139,7 @@ function App() {
                                         learning machine learning and python AIML fundamentals.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/react-site/projects#deep-racer" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/projects#deep-race"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -151,7 +152,7 @@ function App() {
                                         development and redesign efforts to reduce impact on developers.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/react-site/projects#angular-react" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/projects#angular-react"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -163,7 +164,7 @@ function App() {
                                         climate change and its effects on animal endangerment status.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/react-site/projects#biodiversity" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/projects#biodiversity"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -175,7 +176,7 @@ function App() {
                                         of this project have been expanded uses of python, JavaScript, and making API calls and using other libraries.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/react-site/projects#datavis" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/projects#datavis"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                             </Accordion.Body>
@@ -192,7 +193,7 @@ function App() {
                                         Significant usage of TypeScript React, C#, and Microsoft SQL Server Management Studio.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/react-site/workexp" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/workexp#direct-supply"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -200,12 +201,12 @@ function App() {
                                     <Card.Title>Best Buy Geek Squad</Card.Title>
                                     <Card.Text>
                                         Consultation Agent<br /><br />
-                                        Managed system performance by monitoring oeprations and correcting routine issues.
+                                        Managed system performance by monitoring operations and correcting routine issues.
                                         Collaborated on investigation, diagnosis, and delivery of customer issues in hardware,
                                         software, and peripherals.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/react-site/workexp" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/workexp#geek-squad"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -218,7 +219,7 @@ function App() {
                                         with exterior vendors.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/react-site/workexp" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/workexp#msoe-it"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -231,7 +232,7 @@ function App() {
                                         Focused on accessibility of information.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/react-site/workexp" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/workexp#first-church"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                             </Accordion.Body>
@@ -245,7 +246,7 @@ function App() {
                                     <Card.Text>Bachelor's in Computer Science</Card.Text>
                                     <Card.Body>
                                         <p>3.6 GPA, Honor Roll, Expected Graduation Date: May 2025</p>
-                                        <a href="/react-site/education#MSOE" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/education#MSOE"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -254,7 +255,7 @@ function App() {
                                     <Card.Text>High School Diploma</Card.Text>
                                     <Card.Body>
                                         <p>4.3 GPA, 1200+ Hours of Community Service, Graduated with Distinction</p>
-                                        <a href="/react-site/education#NQHS" className="btn">Learn More</a>
+                                        <a className="btn"><HashLink to={"/react-site/education#NQHS"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                             </Accordion.Body>

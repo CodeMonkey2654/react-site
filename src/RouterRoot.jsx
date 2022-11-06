@@ -10,7 +10,7 @@ function RouterRoot() {
     return (
         <div className="App">
             <Routes>
-                <Route path="/react-site" element={ <App />} />
+                <Route path="/react-site" exact element={ <App />} />
                 <Route path="/react-site/education" element={<Eduhome />} />
                 <Route path="/react-site/workexp" element={<Workhome/>} />
                 <Route path="/react-site/projects" element={<ProjHome/>} />
