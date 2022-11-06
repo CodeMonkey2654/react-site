@@ -9,7 +9,7 @@ export default function AngularToReact() {
         <AccordionHeader>Angular To React Refactor</AccordionHeader>
         <AccordionBody>
             <div className={"EducationAccordion"}>
-                <img src={"./Images/angular-logo.png"} alt={"Angular logo"} className={"cardImg"}/>
+                <img src={"./Images/angular-logo.avif"} alt={"Angular logo"} className={"cardImg"}/>
                 <p className={'workExperienceParagraph'}>
                     Led a refactoring effort in an industry setting to convert a set of angular directives and
                     controllers into React components and then connecting those pages to C# Model View Controller patterns.
@@ -21,7 +21,7 @@ export default function AngularToReact() {
             <h3>Skills Used For This Project</h3>
             <div className={"cardsGroup"}>
                 <Card className={"Card"}>
-                    <Card.Img className={"cardImg"} variant="top" src={"./Images/c-sharp.png"}/>
+                    <Card.Img className={"cardImg"} variant="top" src={"./Images/c-sharp.avif"}/>
                     <Card.Title>C# and .NET</Card.Title>
                     <Card.Text>Experience with MVC patterns, .NET 2.1 through .NET6 LTS. Up to date on
                         current features of C# 10 and possible upcoming features of C# 11. Strong familiarity with standard
@@ -38,7 +38,7 @@ export default function AngularToReact() {
                         vanilla), Redux, functional and class components, lazy loading and suspense, and react hook fundamentals.</Card.Text>
                 </Card>
                 <Card className={"Card"}>
-                    <Card.Img className={"cardImg"} variant="top" src={"./Images/css-html.jpg"}/>
+                    <Card.Img className={"cardImg"} variant="top" src={"./Images/css-html.avif"}/>
                     <Card.Title>HTML & CSS</Card.Title>
                     <Card.Text>Experienced with FlexBox, Grid display, Bootstrap, form creation, and UX to create
                         user-friendly applications in both team and individual settings. Also familiar with semantic HTML,

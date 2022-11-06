@@ -18,7 +18,7 @@ export default function Navigation() {
                         <Dropdown.Item ><HashLink to={"/react-site/projects#biodiversity"} classNames={"hashLink"}>Biodiversity Data Analysis</HashLink></Dropdown.Item>
                         <Dropdown.Item ><HashLink to={"/react-site/projects#this-site"} classNames={"hashLink"}>This website!</HashLink></Dropdown.Item>
                         <Dropdown.Item ><HashLink to={"/react-site/projects#datavis"} classNames={"hashLink"}>DataVis</HashLink></Dropdown.Item>
-                        <Dropdown.Item ><HashLink to={"/react-site/projects#deep-race"} classNames={"hashLink"}>AWS DeepRacer</HashLink></Dropdown.Item>
+                        <Dropdown.Item ><HashLink to={"/react-site/projects#deep-racer"} classNames={"hashLink"}>AWS DeepRacer</HashLink></Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
                 <Dropdown as={ButtonGroup}>

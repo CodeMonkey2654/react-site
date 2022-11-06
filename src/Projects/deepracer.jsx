@@ -9,7 +9,7 @@ export default function AWSDeepRacer() {
         <AccordionHeader>AWS DeepRacer</AccordionHeader>
         <AccordionBody>
             <div className={"EducationAccordion"}>
-                <img src={"./Images/deepracer.jpg"} alt={"Amazon DeepRacer Logo"}/>
+                <img src={"./Images/deepracer.avif"} alt={"Amazon DeepRacer Logo"}/>
                 <p className={"workExperienceParagraph"}>
                     Used reinforcement learning and Jupyter Notebooks to create and analyze the performance
                     of a 1/18th scale race care. Involved designing a reward function, analyzing model performance, and

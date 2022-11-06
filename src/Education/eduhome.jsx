@@ -24,7 +24,7 @@ function EduHome() {
                         <Accordion.Body>
                             <div className={"EducationAccordion"}>
                                 <img src={"./Images/MSOE.png"} alt={"MSOE logo"}/>
-                                <div>
+                                <div className={"msoeInfo"}>
                                     <p>Degree: Bachelor's of Computer Science</p>
                                     <p>Dates of Education: 2021-2025</p>
                                     <p>

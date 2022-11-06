@@ -35,11 +35,11 @@ function App() {
                 </div>
                 <div className="Accordion-Collection">
                     <Accordion className={"accordionSet"}>
-                        <Accordion.Item eventKey={"0"}>
+                        <Accordion.Item eventKey={"0"} className={"accordionSet"} >
                             <Accordion.Header>Skills</Accordion.Header>
                             <Accordion.Body className={"cardsGroup"}>
                                 <Card className={"Card"}>
-                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/c-sharp.png"}/>
+                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/c-sharp.avif"}/>
                                     <Card.Title>C# and .NET</Card.Title>
                                     <Card.Text>Experience with MVC patterns, .NET 2.1 through .NET6 LTS. Up to date on
                                         current features of C# 10 and possible upcoming features of C# 11. Strong familiarity with standard
@@ -76,7 +76,7 @@ function App() {
                                     </Card.Text>
                                 </Card>
                                 <Card className={"Card"}>
-                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/css-html.jpg"}/>
+                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/css-html.avif"}/>
                                     <Card.Title>HTML & CSS</Card.Title>
                                     <Card.Text>
                                         Experienced with FlexBox, Grid display, Bootstrap, form creation, and UX to create
@@ -114,7 +114,7 @@ function App() {
                                 </Card>
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey={"1"}>
+                        <Accordion.Item eventKey={"1"} className={"accordionSet"}>
                             <Accordion.Header>Projects</Accordion.Header>
                             <Accordion.Body className={"cardsGroup"}>
                                 <Card className={"Card"}>
@@ -131,7 +131,7 @@ function App() {
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
-                                    <Card.Img className={"cardImg"} variant="top" src="./Images/deepracer.jpg"/>
+                                    <Card.Img className={"cardImg"} variant="top" src="./Images/deepracer.avif"/>
                                     <Card.Title className={"cardTitle"}>AWS Deep Racer</Card.Title>
                                     <Card.Text className={"cardText"}>
                                         Used reinforcement learning and Jupyter Notebooks to create and analyze the performance
@@ -139,11 +139,11 @@ function App() {
                                         learning machine learning and python AIML fundamentals.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a className="btn"><HashLink to={"/react-site/projects#deep-race"} classNames={"hashLink"}>Learn More</HashLink></a>
+                                        <a className="btn"><HashLink to={"/react-site/projects#deep-racer"} classNames={"hashLink"}>Learn More</HashLink></a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
-                                    <Card.Img className={"cardImg"} variant="top" src="./Images/angular-logo.png"/>
+                                    <Card.Img className={"cardImg"} variant="top" src="./Images/angular-logo.avif"/>
                                     <Card.Title className={"cardTitle"}>Angular 1.x to React Refactor</Card.Title>
                                     <Card.Text className={"cardText"}>
                                         Led a refactoring effort in an industry setting to convert a set of angular directives and
@@ -181,7 +181,7 @@ function App() {
                                 </Card>
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey={"2"}>
+                        <Accordion.Item eventKey={"2"} className={"accordionSet"}>
                             <Accordion.Header>Work Experience</Accordion.Header>
                             <Accordion.Body className={"cardsGroup"}>
                                 <Card className={"Card"}>
@@ -237,7 +237,7 @@ function App() {
                                 </Card>
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey={"3"}>
+                        <Accordion.Item eventKey={"3"} className={"accordionSet"}>
                             <Accordion.Header>Education</Accordion.Header>
                             <Accordion.Body className={"cardsGroup"}>
                                 <Card className={"Card"}>

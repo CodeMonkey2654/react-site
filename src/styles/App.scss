@@ -1,86 +1,74 @@
 @import '../../../../personal/portfolio-site-final/node_modules/bootstrap/scss/bootstrap';
 .Gradient-box {
-  padding: 100px;
+  padding: 5%;
   background: linear-gradient(90deg, rgba(68,177,182,1) 0%, rgba(255,253,255,1) 100%);
 }
 .App-header {
   background-color: #b3b3b3;
-  min-height: 500px;
   width: 100%;
-  height: 200px;
+  height: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(2% + 2vmin);
   color: white;
-}
-
-h2 {
-  padding-bottom: 50px;
+  padding: 5%;
 }
 
 .btn {
   color: rgb(68, 177, 182);
-  padding: 10px;
 }
 .nav {
   background-color: #3b3b3b;
-  padding-right: 10px;
 }
 
 .navigation{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 10px;
-  padding-left: 10px;
 }
 .aboutMe {
-  padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px 10px;
+  background-color: rgb(59, 59, 59);
+  padding: 2% 2% 2% 2%;
+  margin: 2% 2% 2% 2%;
   display: flex;
 }
 
-.CardGroup {
-  overflow-x: scroll;
-}
-
 .Card{
-  max-height: 600px;
-  max-width: 300px;
-  min-height: 600px;
-  min-width: 300px;
-  padding: 10px 10px 10px 10px;
-
+  width: 24vw;
+  height: 50vh;
+  padding: 4%;
+  overflow-y: scroll;
+  background-color: darkcyan;
+  color: white;
 }
 .cardsGroup {
+  background-color: rgb(59, 59, 59);
   display: grid;
   align-content: space-between;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
-  grid-auto-rows:600px;
-  max-width: 1200px;
+  grid-auto-rows:  50vh;
+  gap: 3%;
+  width: 100%;
+  padding-bottom: 5%;
+  overflow-y: scroll;
+}
+.cardsGroup::-webkit-scrollbar {
+  display: none;
+}
+.Card::-webkit-scrollbar {
+  display: none;
 }
 .cardImg {
-  max-width: 280px;
-  max-height: 00px;
-  min-width: 280px;
-  min-height: 200px;
+  width: 20vw;
+  height: 20vh;
+  padding: 1% 1% 1% 1%;
 
-}
-.card-title {
-
-}
-.card-text {
-
-}
-.card-link {
-  background-color: #b3b3b3;
 }
 .navBarSet {
-  padding: 10px 10px 10px 10px;
+  padding: 2% 2% 2% 2%;
   display: flex;
   justify-content: space-between;
   background-color: rgb(59, 59, 59);
@@ -88,14 +76,11 @@ h2 {
 }
 
 .personalphoto {
-  min-height: 200px;
-  min-width: 200px;
-  max-width: 200px;
-  max-height: 200px;
-  padding-right: 10px;
+  width: 20%;
+  padding-right: 2%;
 }
 .aboutMeHeader {
-  padding: 30px 10px 10px 10px;
+  padding: 2%;
 }
 .EducationAccordion {
   display: flex;
@@ -104,23 +89,24 @@ h2 {
   flex-direction: row;
   background-color: white;
   color: black;
+  padding: 5%;
 }
 .cardsGroupNonAccordion {
   display: grid;
   align-content: space-between;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
-  grid-auto-rows:600px;
-  max-width: 1200px;
-  background-color: white;
-  color: black;
+  grid-auto-rows:  50vh;
+  gap: 3%;
+  width: 100%;
+  padding-bottom: 5%;
+  overflow-y: scroll;
 }
 .classListItems {
-  padding: 10px 10px 10px 10px;
+  padding: 2% 2% 2% 2%;
 }
 .EducationAccordionClasses {
-  padding: 10px 10px 10px 10px;
+  padding: 2% 2% 2% 2%;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -130,12 +116,30 @@ h2 {
 }
 .emptyDiv {
   width: 100%;
-  height: 50px;
+  height: 10%;
 }
 .workExperienceParagraph {
-  padding: 20px 20px 20px 20px;
+  padding: 4%;
   justify-self: left;
   justify-content: left;
   border-color: black;
-  max-width: 1200px;
+  width: 70%;
+}
+.hashLink {
+  text-decoration: none;
+  color: black
+}
+.hashLink:hover {
+  color: black;
+}
+.msoeInfo {
+  padding: 2%;
+}
+.App {
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+.AccordionSet {
+  background-color: rgb(59, 59, 59);
+  color: white;
 }

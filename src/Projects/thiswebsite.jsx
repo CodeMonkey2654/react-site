@@ -32,7 +32,7 @@ export default function Thiswebsite() {
 
                 </Card>
                 <Card className={"Card"}>
-                    <Card.Img className={"cardImg"} variant="top" src={"./Images/css-html.jpg"}/>
+                    <Card.Img className={"cardImg"} variant="top" src={"./Images/css-html.avif"}/>
                     <Card.Title>HTML & CSS</Card.Title>
                     <Card.Text>
                         Experienced with FlexBox, Grid display, Bootstrap, form creation, and UX to create
