@@ -1,0 +1,141 @@
+@import '../../../../personal/portfolio-site-final/node_modules/bootstrap/scss/bootstrap';
+.Gradient-box {
+  padding: 100px;
+  background: linear-gradient(90deg, rgba(68,177,182,1) 0%, rgba(255,253,255,1) 100%);
+}
+.App-header {
+  background-color: #b3b3b3;
+  min-height: 500px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h2 {
+  padding-bottom: 50px;
+}
+
+.btn {
+  color: rgb(68, 177, 182);
+  padding: 10px;
+}
+.nav {
+  background-color: #3b3b3b;
+  padding-right: 10px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.aboutMe {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+}
+
+.CardGroup {
+  overflow-x: scroll;
+}
+
+.Card{
+  max-height: 600px;
+  max-width: 300px;
+  min-height: 600px;
+  min-width: 300px;
+  padding: 10px 10px 10px 10px;
+
+}
+.cardsGroup {
+  display: grid;
+  align-content: space-between;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  justify-content: space-between;
+  grid-auto-rows:600px;
+  max-width: 1200px;
+}
+.cardImg {
+  max-width: 280px;
+  max-height: 00px;
+  min-width: 280px;
+  min-height: 200px;
+
+}
+.card-title {
+
+}
+.card-text {
+
+}
+.card-link {
+  background-color: #b3b3b3;
+}
+.navBarSet {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+.personalphoto {
+  min-height: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  padding-right: 10px;
+}
+.aboutMeHeader {
+  padding: 30px 10px 10px 10px;
+}
+.EducationAccordion {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+}
+.cardsGroupNonAccordion {
+  display: grid;
+  align-content: space-between;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  justify-content: space-between;
+  grid-auto-rows:600px;
+  max-width: 1200px;
+  background-color: white;
+  color: black;
+}
+.classListItems {
+  padding: 10px 10px 10px 10px;
+}
+.EducationAccordionClasses {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  background-color: rgb(30,30,30);
+  color: White;
+}
+.emptyDiv {
+  width: 100%;
+  height: 50px;
+}
+.workExperienceParagraph {
+  padding: 20px 20px 20px 20px;
+  justify-self: left;
+  justify-content: left;
+  border-color: black;
+  max-width: 1200px;
+}

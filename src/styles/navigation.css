@@ -1,0 +1,13 @@
+.navButton {
+    background-color: darkcyan;
+    color: white;
+    border: #3b3b3b;
+    flex-grow: initial;
+}
+.navButton:hover {
+    background-color: darkgray;
+}
+.nav{
+    padding-left: 10px;
+    padding-right: 10px;
+}
