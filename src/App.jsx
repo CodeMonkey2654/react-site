@@ -1,5 +1,4 @@
 import './styles/App.scss';
-import "./Components/splitButton";
 import {Accordion} from "react-bootstrap";
 import {Card} from "react-bootstrap";
 import Navigation from "./Components/Navigation";
@@ -22,7 +21,7 @@ function App() {
                 </div>
                 <h3 className={"aboutMeHeader"}>About Me</h3>
                 <div className={"aboutMe"}>
-                    <img className={"personalphoto"} src="/git/personal/portfolio-site-final/public/Images/Personal Photo.jpg" alt={"Me in a sleeping bag giving a thumbs up during quarantine"}/>
+                    <img className={"personalphoto"} src={"./Images/Personal Photo.jpg"} alt={"Me in a sleeping bag giving a thumbs up during quarantine"}/>
                     <p>
                         Hi! My name is Caleb Gray and I am a Computer Science Student at the Milwaukee school of engineering.
                         I love learning new languages, finding useful libraries, and spending time watching superhero movies with
@@ -118,7 +117,7 @@ function App() {
                             <Accordion.Header>Projects</Accordion.Header>
                             <Accordion.Body className={"cardsGroup"}>
                                 <Card className={"Card"}>
-                                    <Card.Img className={"cardImg"} variant="top" src="./Images/codeproject-photo.avif"/>
+                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/codeproject-photo.avif"}/>
                                     <Card.Title className={"cardTitle"}>This Website!</Card.Title>
                                     <Card.Text className={"cardText"}>
                                         The most recent of my projects has been coding this website! I have used
@@ -127,7 +126,7 @@ function App() {
                                         OOP classes and templates using typescript.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/projects#this-site" className="btn">Learn More</a>
+                                        <a href="/react-site/projects#this-site" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -139,7 +138,7 @@ function App() {
                                         learning machine learning and python AIML fundamentals.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/projects#deep-racer" className="btn">Learn More</a>
+                                        <a href="/react-site/projects#deep-racer" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -152,7 +151,7 @@ function App() {
                                         development and redesign efforts to reduce impact on developers.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/projects#angular-react" className="btn">Learn More</a>
+                                        <a href="/react-site/projects#angular-react" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -164,7 +163,7 @@ function App() {
                                         climate change and its effects on animal endangerment status.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/projects#biodiversity" className="btn">Learn More</a>
+                                        <a href="/react-site/projects#biodiversity" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -176,7 +175,7 @@ function App() {
                                         of this project have been expanded uses of python, JavaScript, and making API calls and using other libraries.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/projects#datavis" className="btn">Learn More</a>
+                                        <a href="/react-site/projects#datavis" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                             </Accordion.Body>
@@ -193,7 +192,7 @@ function App() {
                                         Significant usage of TypeScript React, C#, and Microsoft SQL Server Management Studio.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/workexp" className="btn">Learn More</a>
+                                        <a href="/react-site/workexp" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -206,7 +205,7 @@ function App() {
                                         software, and peripherals.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/workexp" className="btn">Learn More</a>
+                                        <a href="/react-site/workexp" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -219,7 +218,7 @@ function App() {
                                         with exterior vendors.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/workexp" className="btn">Learn More</a>
+                                        <a href="/react-site/workexp" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -232,7 +231,7 @@ function App() {
                                         Focused on accessibility of information.
                                     </Card.Text>
                                     <Card.Body>
-                                        <a href="/workexp" className="btn">Learn More</a>
+                                        <a href="/react-site/workexp" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                             </Accordion.Body>
@@ -246,7 +245,7 @@ function App() {
                                     <Card.Text>Bachelor's in Computer Science</Card.Text>
                                     <Card.Body>
                                         <p>3.6 GPA, Honor Roll, Expected Graduation Date: May 2025</p>
-                                        <a href="/education#MSOE" className="btn">Learn More</a>
+                                        <a href="/react-site/education#MSOE" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                                 <Card className={"Card"}>
@@ -255,7 +254,7 @@ function App() {
                                     <Card.Text>High School Diploma</Card.Text>
                                     <Card.Body>
                                         <p>4.3 GPA, 1200+ Hours of Community Service, Graduated with Distinction</p>
-                                        <a href="/education#NQHS" className="btn">Learn More</a>
+                                        <a href="/react-site/education#NQHS" className="btn">Learn More</a>
                                     </Card.Body>
                                 </Card>
                             </Accordion.Body>

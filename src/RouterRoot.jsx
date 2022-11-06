@@ -11,9 +11,9 @@ function RouterRoot() {
         <div className="App">
             <Routes>
                 <Route path="/react-site" element={ <App />} />
-                <Route path="/education" element={<Eduhome />} />
-                <Route path="/workexp" element={<Workhome/>} />
-                <Route path="/projects" element={<ProjHome/>} />
+                <Route path="/react-site/education" element={<Eduhome />} />
+                <Route path="/react-site/workexp" element={<Workhome/>} />
+                <Route path="/react-site/projects" element={<ProjHome/>} />
             </Routes>
         </div>
     )

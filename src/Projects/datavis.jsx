@@ -46,9 +46,6 @@ export default function Datavis() {
                         lambda calculus fundamentals, and basic algorithmic data analysis. Currently learning about typecasting, data frames,
                         file handling, working with inbuilt databases, conditional statements, and loops as well as connecting R with Python.
                     </Card.Text>
-                    <Card.Body>
-                        <a className="btn">Learn More</a>
-                    </Card.Body>
                 </Card>
                 <Card className={"Card"}>
                     <Card.Img className={"cardImg"} variant="top" src={"./Images/python.jpg"}/>

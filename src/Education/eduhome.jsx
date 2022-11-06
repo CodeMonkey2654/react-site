@@ -1,5 +1,4 @@
 import '../styles/App.scss';
-import "../Components/splitButton";
 import {Accordion} from "react-bootstrap";
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
