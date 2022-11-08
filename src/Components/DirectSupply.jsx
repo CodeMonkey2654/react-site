@@ -8,10 +8,10 @@ function DirectSupply() {
 
     return (
         <div className="App">
-            <div >
+            <div className={"accordionSet"}>
                 <div className={"EducationAccordion"}>
-                    <img className={"cardImg"} src={"./Images/direct-supply.png"} alt={"direct supply company logo"}/>
-                    <p className={"workExperienceParagraph"}>
+                    <img className={"largeImage"} src={"./Images/direct-supply.png"} alt={"direct supply company logo"}/>
+                    <p className={"workExperienceParagraphFont"}>
                         Participated in daily workflow with team using version control software, SQL server, and other proprietary tools.
                         Regular refactor, design, and architecture work. Significant usage of TypeScript React, C#,
                         and Microsoft SQL Server Management Studio. Regularly involved in gaining experience and knowledge by actively participating in
@@ -42,7 +42,7 @@ function DirectSupply() {
                                 </Card.Text>
                             </Card>
                             <Card className={"Card"}>
-                                <Card.Img className={"cardImg"} variant="top" src={"./Images/logo192.png"}/>
+                                <Card.Img className={"cardImg"} variant="top" src={"./Images/react.jpg"}/>
                                 <Card.Title>React and Typescript React</Card.Title>
                                 <Card.Text>Familiar with connecting React front end structures to Java and C# as well as other
                                     JavaScript frameworks such as Angular 1.x. Experience with refactoring, design, TDD and making
@@ -65,7 +65,7 @@ function DirectSupply() {
                                     order of execution of Select Statements, Subqueries, and Common Table Expressions.</Card.Text>
                             </Card>
                             <Card className={"Card"}>
-                                <Card.Img className={"cardImg"} variant="top" src={"./Images/powerhsell.png"}/>
+                                <Card.Img className={"cardImg"} variant="top" src={"./Images/shell.jpg"}/>
                                 <Card.Title>Shell Scripting</Card.Title>
                                 <Card.Text>
                                     Basic CI/CD, automating common procedures in windows powershell, use of GitHub

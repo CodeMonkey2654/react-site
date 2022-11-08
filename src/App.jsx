@@ -5,37 +5,38 @@ import Navigation from "./Components/Navigation";
 import React from "react";
 import Footer from "./Components/Footer";
 import {HashLink} from "react-router-hash-link";
+import Header from "./Components/Header";
 
 function App() {
     return (
             <div className="App">
-                <div className={"navBarSet"}>
-                    <h3>Caleb Gray</h3>
-                    <Navigation className="navigation"/>
-                </div>
-
-                <div className="Gradient-box">
-                    <header className="App-header">
-                        <h1>Caleb Gray</h1>
-                        <h2>Computer Scientist</h2>
-                    </header>
-                </div>
-                <h3 className={"aboutMeHeader"}>About Me</h3>
+                <Navigation />
+                <Header title={"Caleb Gray"} subtitle={"Computer Scientist"} imgUrl={"./Images/home-background.avif"}/>
                 <div className={"aboutMe"}>
-                    <Image className={"personalphoto"} src={"./Images/Personal Photo.jpg"} alt={"Me in a sleeping bag giving a thumbs up during quarantine"} roundedCircle/>
-                    <p>
-                        Hi! My name is Caleb Gray and I am a Computer Science Student at the Milwaukee school of engineering.
-                        I love learning new languages, finding useful libraries, and spending time watching superhero movies with
-                        my girlfriend. I prefer to code in Object Oriented Languages, but have been working on learning asynchronous, parallel,
-                        and functional languages more and becoming more comfortable with them. I am currently working on learning Go, Rust, Carbon,
-                        and C++. I plan on graduating spring of 2025 with a Bachelor's in Computer Science.
-                        If you're wondering why I have a link to this website on my resume, it's because I made it! Feel free
-                        to take a look around at some of my projects and skills and if you have any questions, shoot me an email or a call!
-                    </p>
+                    <h3>About Me</h3>
+                    <div className={"aboutMeContents"}>
+                        <Image className={"cardImg"} src={"./Images/Personal Photo.jpg"} alt={"Me in a sleeping bag giving a thumbs up during quarantine"} roundedCircle/>
+                        <p>
+                            Thank you for visiting my website! As I’m sure you already know if you’re here and from the
+                            obnoxiously large header, my name is Caleb Gray, a sophomore computer science major at the
+                            Milwaukee School of Engineering and plan on graduating in the spring of 2025.
+                            I currently am employed at Direct Supply as a Software Engineering
+                            intern where I work with React, TypeScript React, C#, and a few other things you can read about
+                            below. In my spare time, I like to learn new programming languages, keep up to date on Marvel and
+                            DC shows and movies, and try learning things with my girlfriend. In terms of computer science,
+                            I am working on growing my understanding of Quantum Computing, Artificial Intelligence and Machine
+                            Learning concepts, and hopefully one day find a way to keep my dog out of online meetings. If you
+                            have any questions, concerns, or just want to talk feel free to send me an email at grayc@msoe.edu
+                            or text me at (608) 346-1940. Have fun exploring!
+                            <br />
+                            <br />
+                            <a className={"btn"} href={"/react-site/#/react-site/about-me"}>Learn More</a>
+                        </p>
+                    </div>
                 </div>
                 <div className="Accordion-Collection">
                     <Accordion className={"accordionSet"}>
-                        <Accordion.Item eventKey={"0"} className={"accordionSet"} >
+                        <Accordion.Item eventKey={"0"} >
                             <Accordion.Header>Skills</Accordion.Header>
                             <Accordion.Body className={"cardsGroup"}>
                                 <Card className={"Card"}>
@@ -66,7 +67,7 @@ function App() {
                                     </Card.Text>
                                 </Card>
                                 <Card className={"Card"}>
-                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/logo192.png"}/>
+                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/react.jpg"}/>
                                     <Card.Title>React and Typescript React</Card.Title>
                                     <Card.Text>
                                         Familiar with connecting React front end structures to Java and C# as well as other
@@ -95,7 +96,7 @@ function App() {
                                     </Card.Text>
                                 </Card>
                                 <Card className={"Card"}>
-                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/r-lang.jpg"}/>
+                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/rlang.avif"}/>
                                     <Card.Title>R</Card.Title>
                                     <Card.Text>
                                         Familiar with basic R syntax and practices, GGPlot2, functional programming practices,
@@ -104,7 +105,7 @@ function App() {
                                     </Card.Text>
                                 </Card>
                                 <Card className={"Card"}>
-                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/powerhsell.png"}/>
+                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/shell.jpg"}/>
                                     <Card.Title>Shell Scripting</Card.Title>
                                     <Card.Text>
                                         Basic CI/CD, automating common procedures in windows powershell, use of GitHub
@@ -112,9 +113,40 @@ function App() {
                                         brace expansion, and grep consoles. Main usages have been basic commands and file searching.
                                     </Card.Text>
                                 </Card>
+                                <Card className={"Card"}>
+                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/gitbash.png"}/>
+                                    <Card.Title>Git Version Control</Card.Title>
+                                    <Card.Text>
+                                        Experience with GitHub and Gitlab in using GitHub Pages, Continuous Integration and Delivery,
+                                        using git in both GitLab and GitHub UI and command line, and working with large groups of people
+                                        to limit merge conflicts and improve development speed with other practices. Frequently engaged in
+                                        code reviews with team settings.
+                                    </Card.Text>
+                                </Card>
+                                <Card className={"Card"}>
+                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/team-process.avif"}/>
+                                    <Card.Title>Agile Scrum</Card.Title>
+                                    <Card.Text>
+                                        Frequently engaged in all major SCRUM functions in an AGILE environment including
+                                        refinement, daily stand-ups, sprint reviews, Kanban boards, and process improvement
+                                        discussions in a retrospective and productive environment.
+                                    </Card.Text>
+                                </Card>
+                                <Card className={"Card"}>
+                                    <Card.Img className={"cardImg"} variant="top" src={"./Images/skills-growth.avif"}/>
+                                    <Card.Title>Growing Skills</Card.Title>
+                                    <Card.Text>
+                                        <ul>
+                                            <li>MounteBank</li>
+                                            <li>Design and Architecture</li>
+                                            <li>RabbitMQ</li>
+                                            <li>Advanced Technology Refactor</li>
+                                        </ul>
+                                    </Card.Text>
+                                </Card>
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey={"1"} className={"accordionSet"}>
+                        <Accordion.Item eventKey={"1"}>
                             <Accordion.Header>Projects</Accordion.Header>
                             <Accordion.Body className={"cardsGroup"}>
                                 <Card className={"Card"}>
@@ -181,7 +213,7 @@ function App() {
                                 </Card>
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey={"2"} className={"accordionSet"}>
+                        <Accordion.Item eventKey={"2"}>
                             <Accordion.Header>Work Experience</Accordion.Header>
                             <Accordion.Body className={"cardsGroup"}>
                                 <Card className={"Card"}>
@@ -237,7 +269,7 @@ function App() {
                                 </Card>
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey={"3"} className={"accordionSet"}>
+                        <Accordion.Item eventKey={"3"}>
                             <Accordion.Header>Education</Accordion.Header>
                             <Accordion.Body className={"cardsGroup"}>
                                 <Card className={"Card"}>

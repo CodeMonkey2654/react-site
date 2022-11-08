@@ -1,5 +1,4 @@
 .navButton {
-    background-color: darkcyan;
     color: white;
     border: #3b3b3b;
     flex-grow: initial;
@@ -7,12 +6,35 @@
 .navButton:hover, .navButton:active {
     background-color: darkgray;
 }
-
-.routerLink {
+.btnLogo {
     color: white;
     text-decoration: none;
 }
-.routerLink:hover, .routerLink:active {
+.navigation {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    flex-direction: row;
+}
+.hashLink {
     color: white;
     text-decoration: none;
+}
+.hashLink:hover {
+    color: darkcyan;
+}
+
+.DropDown {
+    border: #3b3b3b;
+    background-color: #4C5270;
+}
+.DropDownItem {
+    border: #3b3b3b;
+    background-color: #4C5270;
+    color: white;
+}
+.DropDownItem:hover, .DropDownItem:active {
+    background-color: darkgray;
 }

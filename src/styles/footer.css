@@ -1,10 +1,12 @@
 .footer {
     width: 100%;
-    background-color: #3b3b3b;
+    height: 25vh;
+    background-color: #09094F;
     color: white;
     display: flex;
     justify-content: space-between;
     align-content: center;
+    padding: 2%;
 }
 a {
     color: darkturquoise;
@@ -15,6 +17,14 @@ a:hover {
 .contactLinks {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-right: 10%;
+    padding: 10px 5% 10px 10px;
+}
+.links {
+    width: 30%;
+}
+.contactMeText {
+    width: 50%;
+}
+.footerText {
+    font-size: 1.25em;
 }

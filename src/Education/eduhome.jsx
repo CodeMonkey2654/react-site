@@ -2,28 +2,33 @@ import '../styles/App.scss';
 import {Accordion} from "react-bootstrap";
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
+import React from "react";
+import Header from "../Components/Header";
 
 function EduHome() {
-
+    const [accordionId] = React.useState(window.location.href.split("#")[2]);
+    let activeKey;
+    switch (accordionId) {
+        case "MSOE":
+            activeKey = "0";
+            break;
+        case "NQHS":
+            activeKey = "1";
+            break;
+    }
     return (
         <div className="App">
-            <div className={"navBarSet"}>
-                <h3>Caleb Gray</h3>
-                <Navigation className="navigation"/>
-            </div>
-            <div className="Gradient-box">
-                <header className="App-header">
-                    <h1>Education</h1>
-                </header>
-            </div>
-            <body>
+            <Navigation />
+            <Header title={"Education"} subtitle={""} imgUrl={"./Images/education-bg.avif"}/>
+
+            <body className={"accordionSet"}>
             <div className="Accordion-Collection">
-                <Accordion className={"accordionSet"}>
-                    <Accordion.Item eventKey={"0"} id={"MSOE"}>
+                <Accordion className={"accordionSet"} defaultActiveKey={activeKey}>
+                    <Accordion.Item eventKey={"0"} id={"MSOE"} className={"accordionSet"}>
                         <Accordion.Header>Milwaukee School of Engineering</Accordion.Header>
                         <Accordion.Body>
                             <div className={"EducationAccordion"}>
-                                <img src={"./Images/MSOE.png"} alt={"MSOE logo"}/>
+                                <img src={"./Images/MSOE.png"} alt={"MSOE logo"} className={"largeImage"}/>
                                 <div className={"msoeInfo"}>
                                     <p>Degree: Bachelor's of Computer Science</p>
                                     <p>Dates of Education: 2021-2025</p>
@@ -67,11 +72,11 @@ function EduHome() {
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey={"1"} id={"NQHS"}>
+                    <Accordion.Item eventKey={"1"} id={"NQHS"} className={"accordionSet"}>
                         <Accordion.Header>North Quincy High School</Accordion.Header>
                         <Accordion.Body>
                             <div className={"EducationAccordion"}>
-                                <img src={"./Images/NQHS.png"} alt={"North Quincy High Logo"}/>
+                                <img src={"./Images/NQHS.png"} alt={"North Quincy High Logo"} className={"largeImage"}/>
                                 <div>
                                     <p>Degree: High School Diploma</p>
                                     <p>Dates of Education: 2017-2021</p>

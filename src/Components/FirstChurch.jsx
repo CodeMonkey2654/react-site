@@ -4,10 +4,10 @@ function FirstChurch() {
 
     return (
         <div>
-            <div>
+            <div className={"accordionSet"}>
                 <div className={"EducationAccordion"}>
-                    <img src={"./Images/first-church.jpg"} alt={"first church landscape"} className={"cardImg"}/>
-                    <p className={"workExperienceParagraph"}>
+                    <img src={"./Images/first-church.jpg"} alt={"first church landscape"} className={"largeImage"}/>
+                    <p className={"workExperienceParagraphFont"}>
                         Volunteered, used, and adapted high-powered presentation software in real time.
                         Assisted with creating a mesh Wi-Fi and ethernet system network. Focused on accessibility
                         of information including printing and creating braille and large print bulletins,

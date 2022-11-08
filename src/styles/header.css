@@ -1,0 +1,17 @@
+.Gradient-box {
+    height: 60vh;
+
+    background-size: 100% 100%;
+    font-size: calc(2% + 2vmin);
+    color: white;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
